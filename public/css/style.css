@@ -1,9 +1,9 @@
 @media (max-width: 768px) {
-    /* Estilos para pantallas pequeñas, como celulares */
+
 }
 
 @media (min-width: 769px) {
-    /* Estilos para pantallas más grandes, como tabletas y computadoras */
+   
 }
 
 body {
@@ -29,15 +29,15 @@ body {
 
 .burger-menu {
     position: fixed;
-    bottom: 20px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
-    left: 50%; /* Lo posiciona en el centro horizontal */
-    transform: translateX(-50%); /* Lo centra horizontalmente */
-    background-color: blue; /* Cambia el color de fondo a azul */
-    color: white; /* Cambia el color del ícono a blanco o el que prefieras */
-    padding: 10px 20px; /* Ajusta el relleno (padding) según tus preferencias */
-    border-radius: 5px; /* Agrega bordes redondeados si lo deseas */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave */
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: blue; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .burger-menu i {
@@ -49,61 +49,61 @@ body {
 }
 
 li {
-    display: flex; /* Hace que los elementos se dispongan en línea */
-    align-items: center; /* Centra verticalmente los elementos */
-    margin-bottom: 10px; /* Ajusta el espacio entre elementos */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
 }
 
 a {
     text-decoration: none;
-    color: #424242; /* Cambia el color de enlace según tus preferencias */
-    margin-right: 10px; /* Añade un espacio entre el enlace y el icono */
+    color: #424242; 
+    margin-right: 10px; 
 }
 
 .promote {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: center; /* Centra horizontalmente los elementos */
-    margin-bottom: 20px; /* Ajusta el espacio entre elementos */
-    font-size: 16px; /* Ajusta el tamaño del ícono según tus preferencias */
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px; 
+    font-size: 16px;
     margin-right: 20px;
     margin: 0;
 }
 
 i {
-    font-size: 22px; /* Ajusta el tamaño del ícono según tus preferencias */
+    font-size: 22px; */
 }
 
 footer {
-    background-color: white; /* Fondo blanco para el pie de página */
+    background-color: white; 
     display: flex;
-    flex-direction: column; /* Coloca los elementos en columna en lugar de fila */
-    align-items: center; /* Centra horizontalmente los elementos */
-    padding: 20px; /* Añade espaciado alrededor del pie de página */
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
 }
 
 .footer-section {
-    text-align: center; /* Centra el contenido de los artículos */
-    margin-bottom: 20px; /* Agrega espacio entre los elementos */
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 .footer-section i {
-    font-size: 2em; /* Tamaño de los íconos */
-    margin-bottom: 10px; /* Margen inferior para separación de 10 píxeles */
+    font-size: 2em; 
+    margin-bottom: 10px;
 }
 
 .icon-container {
-    display: inline-block; /* Asegura que el contenedor se ajuste al tamaño del icono */
-    background-color: white; /* Fondo blanco */
-    border: 1px solid black; /* Borde negro de 1 píxel */
-    padding: 10px; /* Ajusta el espaciado interno */
-    width: 15px; /* Ajusta el ancho del cuadrado según tus preferencias */
-    height: 15px; /* Ajusta la altura del cuadrado según tus preferencias */
-    text-align: center; /* Centra el icono horizontalmente */
-    line-height: 5px; /* Centra el icono verticalmente */
+    display: inline-block; 
+    background-color: white;
+    border: 1px solid black; 
+    padding: 10px; 
+    width: 15px; 
+    height: 15px; 
+    text-align: center;
+    line-height: 5px; 
 }
 
 .icon-container i {
-    font-size: 18px; /* Ajusta el tamaño del icono según tus preferencias */
+    font-size: 18px; 
 }
 
