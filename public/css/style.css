@@ -23,8 +23,17 @@
 body {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
+
 }
 
+form {
+    text-align: center; 
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .logo {
     width: 150px;
 }
@@ -138,6 +147,14 @@ main{
 
 }
 
+.main2{
+    background-color: #f6f6f6;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
 .product-details {
 
     display: flex;
@@ -174,3 +191,7 @@ main{
 }
 
 
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+}

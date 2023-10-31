@@ -60,14 +60,14 @@
     </main>
 
     <footer>
-        <!-- Tu pie de página si es necesario -->
+        <div class="footer-section">
+            <p>Copyright &copy; 1999-2020 MercadoLiebre S.R.L.</p>
+        </div>
     </footer>
     <script>
         $(document).ready(function () {
             $('form').submit(function (event) {
-                event.preventDefault(); // Previene el envío del formulario
-                // Aquí puedes agregar el código para procesar el formulario (enviar datos al servidor)
-                // Luego, redirige al usuario a la página principal
+                event.preventDefault(); 
                 window.location.href = '/';
             });
         });
