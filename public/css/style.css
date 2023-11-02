@@ -6,8 +6,55 @@
     }
 }
 
-@media (min-width: 769px) {
-   
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-container, .search-bar, .promote {
+        width: 33.33%; /* Cada elemento ocupa el 33.33% del espacio horizontal */
+    }
+
+    .logo {
+        max-width: 100%;
+    }
+
+    .search-bar input {
+        width: 70%; /* El campo de búsqueda ocupa el 70% del espacio disponible */
+    }
+
+    .icon-container {
+        width: 15%; /* El icono de búsqueda ocupa el 15% del espacio disponible */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .promote {
+        text-align: center;
+    }
+
+    .header-bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-options ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .menu-options li {
+        margin-right: 20px; /* Agrega margen entre los elementos */
+    }
 }
 
 @media (min-width: 1024px) {
@@ -44,9 +91,7 @@ form {
     align-items: center;
     flex-direction: column;
 }
-.logo {
-    width: 150px;
-}
+
 
 .product p.precio {
     flex: 30%;
@@ -161,7 +206,7 @@ footer {
 main{
     background-color: #f6f6f6;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -238,4 +283,51 @@ border-radius: 50%;
 position: absolute;
 right: 20px;
 top: -15px;
+}
+
+header {
+    background-color: #EAC926;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.logo-container, .search-bar {
+    width: 50%;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.search-bar input {
+    width: 50%; /* La barra de búsqueda ocupa el 50% de su contenedor */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: gray;
+}
+
+.icon-container {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 5px;
+    margin-left: 10px; /* Agrega margen entre el campo de entrada y el icono */
+}
+
+.icon-container i {
+    font-size: 20px;
+}
+
+.seleccionables{
+    display: flex;
+    flex-direction: row;
 }
