@@ -1,9 +1,19 @@
 @media (max-width: 768px) {
 
+    .product {
+        flex: 1; /* Cada producto ocupa el 100% del espacio disponible */
+        max-width: 100%; /* 1 producto por fila en móviles */
+    }
 }
 
 @media (min-width: 769px) {
    
+}
+
+@media (min-width: 1024px) {
+    .product {
+        max-width: calc(25% - 10px); /* 4 productos por fila en escritorio */
+    }
 }
 
 @media (min-width: 361px) {
@@ -39,22 +49,31 @@ form {
 }
 
 .product p.precio {
+    flex: 30%;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .product p.descuento {
+    flex: 70%;
     font-size: 16px;
     color: green;
     font-weight: bold;
     margin-bottom: 10px;
     white-space: pre-line;
+    text-align: center;
 }
 
 .product p.producto {
     font-size: 16px;
     margin-bottom: 10px;
+}
+.precio-descuento {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .burger-menu {
@@ -170,6 +189,11 @@ main{
 
 .product {
     margin-bottom: 10px;
+    flex: 1; 
+
+    margin: 5px;
+    max-width: 100%; /* Evita que el contenedor sea más ancho que la imagen */
+    margin: 0 auto;
 }
 
 .img-producto {
@@ -194,4 +218,24 @@ main{
 label, input, select {
     display: block;
     margin-bottom: 10px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fa-solid fa-truck{
+    display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
 }
